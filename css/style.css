@@ -53,11 +53,11 @@ article:nth-child(2n + 1) header {
 }
 
 article:first-child header {
-  background-color: mediumblue;
+  background-color: rgb(95, 95, 211);
 }
 
 article:nth-child(2n) header {
-  background-color: olive;
+  background-color: rgb(136, 136, 33);
 }
 
 p {
@@ -72,7 +72,7 @@ p {
     width: 32%;
     margin-right: 2%;
   }
-  .end {
+  .ending {
     margin-right: 0;
   }
   p {
@@ -91,7 +91,7 @@ p {
     margin-right: 0;
   }
 
-  .end {
+  .ending {
     width: 100%;
     margin-right: 0;
   }

@@ -23,7 +23,7 @@ article:nth-child(odd) > header > h2 {
 }
 
 article:nth-child(even) > header > h2 {
-  color: rgb(148, 44, 44);
+  color: rgb(236, 209, 209);
 }
 
 section {
@@ -48,16 +48,16 @@ header {
   float: right;
 }
 
-article:nth-child(2n + 1) header {
-  background-color: plum;
-}
-
 article:first-child header {
-  background-color: rgb(95, 95, 211);
+  background-color: rgb(78, 78, 216);
 }
 
-article:nth-child(2n) header {
-  background-color: rgb(136, 136, 33);
+article:nth-child(2) header {
+  background-color: rgb(156, 156, 76);
+}
+
+article:nth-child(3) header {
+  background-color: plum;
 }
 
 p {
